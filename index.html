@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soul Hub — Conexões Reais no seu Condomínio</title>
+  <meta name="description" content="Soul Hub transforma áreas comuns em centros de vitalidade. Curadoria de saúde, vinho, kids e cultura para condomínios que valorizam a conexão humana." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-logo-link">
+        <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="currentColor" stroke-width="1.8" fill="none">
+            <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(0 24 24)" />
+            <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(45 24 24)" />
+            <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(90 24 24)" />
+            <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(135 24 24)" />
+          </g>
+          <circle cx="24" cy="24" r="3" fill="currentColor" opacity="0.5"/>
+        </svg>
+        <span class="logo-text">Soul Hub</span>
+      </a>
+      <button class="nav-cta" style="" id="nav-cta-btn">Falar com o Time</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="hero_community.png" alt="Comunidade em área comum do condomínio" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Bem-estar coletivo para condomínios</p>
+      <h1 class="hero-title">A vida acontece<br/>nos espaços<br/><em>compartilhados.</em></h1>
+      <p class="hero-sub">Soul Hub transforma áreas comuns em centros de vitalidade. Curadoria de saúde, vinho, kids e cultura para condomínios que valorizam a conexão humana.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" id="hero-demo-btn">Agendar demonstração</button>
+        <button class="btn-ghost" id="hero-exp-btn">Conhecer experiências</button>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Role para descobrir</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">40<span class="stat-plus">+</span></span>
+          <span class="stat-label">Condomínios atendidos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">5.000<span class="stat-plus">+</span></span>
+          <span class="stat-label">Moradores conectados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">98<span class="stat-pct">%</span></span>
+          <span class="stat-label">Satisfação dos moradores</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">120<span class="stat-plus">+</span></span>
+          <span class="stat-label">Experiências por mês</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIAS -->
+  <section class="experiences" id="experiencias">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">O ecossistema</p>
+        <h2 class="section-title">Um ecossistema de<br/>vivências curadas</h2>
+      </div>
+      <div class="exp-grid">
+
+        <div class="exp-card" id="card-health">
+          <div class="exp-card-img">
+            <img src="soul_health.png" alt="Saúde Preventiva" />
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-tag">Soul Health</span>
+            <h3>Saúde Preventiva</h3>
+            <p>Check-ups, vacinação, fisioterapia e consultas em domicílio para o cuidado contínuo da sua família.</p>
+          </div>
+        </div>
+
+        <div class="exp-card" id="card-wine">
+          <div class="exp-card-img">
+            <img src="soul_wine.png" alt="Cultura e Wine" />
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-tag">Soul Wine</span>
+            <h3>Cultura &amp; Wine</h3>
+            <p>Degustações guiadas por sommeliers e workshops de gastronomia no salão gourmet do seu prédio.</p>
+          </div>
+        </div>
+
+        <div class="exp-card" id="card-kids">
+          <div class="exp-card-img">
+            <img src="soul_kids.png" alt="Kids e Recreação" />
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-tag">Soul Kids</span>
+            <h3>Kids &amp; Recreação</h3>
+            <p>Oficinas lúdicas e monitoria especializada para as crianças interagirem com segurança no condomínio.</p>
+          </div>
+        </div>
+
+        <div class="exp-card" id="card-connect">
+          <div class="exp-card-img">
+            <img src="soul_connect.png" alt="Integração e Convivência" />
+          </div>
+          <div class="exp-card-body">
+            <span class="exp-tag">Soul Connect</span>
+            <h3>Integração &amp; Convivência</h3>
+            <p>Jantares de vizinhos, cineclubes e encontros culturais que resgatam o sentido de comunidade.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="how-it-works" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">O método</p>
+        <h2 class="section-title">Três passos para dar<br/>alma ao seu prédio.</h2>
+      </div>
+      <div class="steps-list">
+        <div class="step-item" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-line"></div>
+          <div class="step-body">
+            <h3>Diagnóstico</h3>
+            <p>Mapeamos o perfil dos moradores e as áreas comuns disponíveis no condomínio.</p>
+          </div>
+        </div>
+        <div class="step-item" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-line"></div>
+          <div class="step-body">
+            <h3>Curadoria</h3>
+            <p>Montamos uma grade mensal com saúde, wine, kids e integração sob medida.</p>
+          </div>
+        </div>
+        <div class="step-item" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-line"></div>
+          <div class="step-body">
+            <h3>Operação</h3>
+            <p>Cuidamos de tudo: fornecedores, agendamento, comunicação e relatórios.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA MORADORES / SÍNDICOS -->
+  <section class="audience" id="audiencia">
+    <div class="container">
+      <div class="audience-grid">
+
+        <div class="audience-card light" id="audience-moradores">
+          <span class="audience-eyebrow">Para Moradores</span>
+          <h2>A conveniência que<br/>o seu tempo merece.</h2>
+          <p>Acesso a serviços premium sem sair do seu prédio, direto pelo app do condomínio.</p>
+          <ul class="audience-list">
+            <li><span class="list-dot"></span>Agendamento simplificado</li>
+            <li><span class="list-dot"></span>Pagamento integrado</li>
+            <li><span class="list-dot"></span>Notificações dos próximos eventos</li>
+            <li><span class="list-dot"></span>Histórico de experiências</li>
+          </ul>
+          <button class="btn-primary-sm" id="moradores-btn">Sou morador</button>
+        </div>
+
+        <div class="audience-card dark" id="audience-sindicos">
+          <span class="audience-eyebrow">Para Síndicos</span>
+          <h2>Valorização patrimonial<br/>e harmonia coletiva.</h2>
+          <p>Reduza a ociosidade das áreas comuns e aumente o valor percebido do m² com uma agenda viva de experiências.</p>
+          <ul class="audience-list">
+            <li><span class="list-dot"></span>Fornecedores homologados e certificados</li>
+            <li><span class="list-dot"></span>Relatórios de engajamento mensais</li>
+            <li><span class="list-dot"></span>Sem custo de implantação para o condomínio</li>
+            <li><span class="list-dot"></span>Suporte dedicado 24/7</li>
+          </ul>
+          <button class="btn-outline-sm" id="sindicos-btn">Sou síndico</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTO -->
+  <section class="testimonial" id="depoimento">
+    <div class="container">
+      <div class="testimonial-inner">
+        <div class="quote-mark">"</div>
+        <blockquote>O Soul Hub resgatou o sentido de vizinhança. Hoje conheço as pessoas que moram no meu andar através das aulas de yoga e dos jantares de sábado.</blockquote>
+        <div class="testimonial-author">
+          <div class="author-avatar">C</div>
+          <div class="author-info">
+            <strong>Carolina Menezes</strong>
+            <span>Moradora, Vila Nova Conceição</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final" id="contato">
+    <div class="container">
+      <div class="cta-card">
+        <span class="cta-eyebrow">Pronto para começar?</span>
+        <h2>Vamos transformar<br/>o seu condomínio.</h2>
+        <p>Junte-se a mais de 40 condomínios que já integraram o Soul Hub à rotina dos seus moradores.</p>
+        <div class="cta-actions">
+          <button class="btn-cta-main" id="cta-main-btn">Agendar demonstração gratuita</button>
+          <a href="mailto:contato@soulhub.com.br" class="cta-link" id="cta-email-link">contato@soulhub.com.br</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo" id="footer-logo-link">
+            <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g stroke="currentColor" stroke-width="1.8" fill="none">
+                <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(0 24 24)" />
+                <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(45 24 24)" />
+                <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(90 24 24)" />
+                <ellipse cx="24" cy="14" rx="5" ry="10" transform="rotate(135 24 24)" />
+              </g>
+              <circle cx="24" cy="24" r="3" fill="currentColor" opacity="0.5"/>
+            </svg>
+            <span class="logo-text">Soul Hub</span>
+          </a>
+          <p>Conexões Reais</p>
+        </div>
+        <div class="footer-links">
+          <a href="#experiencias" id="footer-exp-link">Experiências</a>
+          <a href="#como-funciona" id="footer-how-link">Como Funciona</a>
+          <a href="#audiencia" id="footer-aud-link">Moradores &amp; Síndicos</a>
+          <a href="#contato" id="footer-contact-link">Contato</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Soul Hub. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
