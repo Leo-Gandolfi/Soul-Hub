@@ -165,19 +165,38 @@ ul {
 .nav-cta {
   font-family: var(--font-sans);
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--brown-mid);
-  border: 1.5px solid var(--brown-mid);
+  color: var(--white);
+  background: var(--amber);
+  border: 2px solid var(--amber);
   border-radius: 100px;
-  padding: 10px 22px;
+  padding: 11px 24px;
   transition: all var(--transition);
+  box-shadow: 0 4px 20px rgba(184,115,42,0.45);
 }
 
 .nav-cta:hover {
+  background: var(--amber-light);
+  border-color: var(--amber-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(184,115,42,0.55);
+}
+
+/* Once scrolled, switch to a subtle outline style */
+#navbar.scrolled .nav-cta {
+  background: transparent;
+  color: var(--brown-mid);
+  border-color: var(--brown-mid);
+  box-shadow: none;
+}
+
+#navbar.scrolled .nav-cta:hover {
   background: var(--brown-mid);
   color: var(--cream);
+  transform: translateY(-1px);
+  box-shadow: none;
 }
 
 /* ============================================
